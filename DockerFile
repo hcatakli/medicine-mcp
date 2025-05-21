@@ -1,0 +1,4 @@
+Index Codebase
+Indexing allows Augment to make tailored code suggestions and explain common practices or patterns.
+Your data always stays secure, private and anonymized.
+Learn More
