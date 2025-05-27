@@ -17,4 +17,4 @@ def get_medicine_info(medicine_name: str) -> str:
     return medicine_info
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="http")
