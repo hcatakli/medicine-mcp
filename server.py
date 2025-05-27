@@ -5,7 +5,7 @@ from app import getMedicine
 mcp = FastMCP("medicine-mcp")
 
 @mcp.tool()
-async def get_medicine_info(medicine_name: str) -> str:
+def get_medicine_info(medicine_name: str) -> str:
     """
     Get information for a medicine.
     """
@@ -18,4 +18,3 @@ async def get_medicine_info(medicine_name: str) -> str:
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")
-
