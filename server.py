@@ -17,4 +17,4 @@ def get_medicine_info(medicine_name: str) -> str:
     return medicine_info
 
 if __name__ == "__main__":
-    mcp.run(transport="http")
+    mcp.run(transport="http", host="0.0.0.0", port=3000)
